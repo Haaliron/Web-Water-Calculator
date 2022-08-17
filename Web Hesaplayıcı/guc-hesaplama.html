@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Güç Hesaplama</title>
+    <link rel="stylesheet" href="styles-4.css">
+
+    <script type="text/javascript">
+
+        function noscroll()
+        {
+        window.scrollTo(0,0);
+        }
+        window.addEventListener("scroll",noscroll);
+    
+    
+        
+        function fn1()
+        {
+            var debii = document.getElementById("debi").value;
+            var basmayuksekligi = document.getElementById("basma-yuksekligi").value;
+            var hidrolikverim = document.getElementById("hidrolik-verim").value;
+            var motorverimi = document.getElementById("motor-verimi").value;
+
+        
+            alert("Sonuç :   " + (debii * basmayuksekligi) / (hidrolikverim/100 * motorverimi/100 *367.2) + " kW/h");
+        }
+        
+        </script>
+
+
+</head>
+
+<body>
+
+    <div class="banner">
+        <h1>
+            Güç Hesaplayıcı
+        </h1>
+    </div>
+
+    <input id="hidrolik-verim" type="number" placeholder="Hidrolik Verim (%)">
+    <button onclick="fn1()" id="submit">Hesapla</button>
+    <input id="basma-yuksekligi" type="number" placeholder="Basma Yüksekliği (mSS) ">
+    <input id="debi" type="number" placeholder="Debi (m³ / h)")>
+    <input id="motor-verimi" type="number" placeholder="Motor Verimi (%)" >    
+
+</body>
+</html>

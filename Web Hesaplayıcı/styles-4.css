@@ -1,0 +1,94 @@
+.banner
+{
+    background-color: rgb(94, 94, 94);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body
+{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+::placeholder
+{
+    color:black;
+}
+
+input[type=number]
+        {
+            width: 270px;
+            background-color: rgb(110, 110, 110);
+            height: 100px;
+            font-size: 35px;
+            border: 2px solid rgb(197, 197, 197);
+            border-radius: 4px;
+            margin: 8px 0;
+            outline: none;
+            padding: 15px;
+            box-sizing: border-box;
+            transition: 0.3s;
+            text-align: center;
+            position: relative;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        input[type=number]:focus
+        {
+            border-color: rgb(182, 164, 0);
+            box-shadow: 0 0 8px 0 rgb(182, 164, 0);
+        }
+
+        #hidrolik-verim
+        {
+            left: 100px;
+            font-size: 30px;
+            top: 200px;
+        }
+
+        #basma-yuksekligi
+        {
+            font-size: 22px;
+            top: 200px;
+        }
+        #debi
+        {
+            left: 700px;
+            top: 200px;
+        }
+
+        #motor-verimi
+        {
+            font-size: 33px;
+            position: relative;
+            top: 200px;
+            right: 20px;
+            
+        }
+
+        #submit
+        {
+            width: 270px;
+            background-color: rgb(110, 110, 110);
+            height: 100px;
+            font-size: 35px;
+            border: 2px solid rgb(197, 197, 197);
+            border-radius: 4px;
+            margin: 8px 0;
+            outline: none;
+            padding: 15px;
+            box-sizing: border-box;
+            text-align: center;
+            position: relative;
+            top: 400px;
+            left: 530px;
+        }
+
+        

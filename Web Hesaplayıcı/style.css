@@ -1,0 +1,24 @@
+.banner
+{
+    background-color: rgb(94, 94, 94);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body
+{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+::placeholder
+{
+    color:black;
+}
+
